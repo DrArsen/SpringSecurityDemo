@@ -14,9 +14,9 @@ import java.util.stream.Stream;
 public class DeveloperRestControllerV1 {
 
     private List<Developer> DEVELOPERS = Stream.of(
-            new Developer(1L, "Arsenii", "Grigorchuk"),
-            new Developer(2L, "Nikita", "Tsyganov"),
-            new Developer(3L, "Oleg", "Krainov")
+            new Developer(1L, "MyName", "MyLastName"),
+            new Developer(2L, "Madisson", "Blue"),
+            new Developer(3L, "Oleg", "Chek")
     ).collect(Collectors.toList());
 
     @GetMapping
